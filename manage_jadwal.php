@@ -308,7 +308,6 @@ footer {
                             class="py-2 px-3 rounded-md border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
                             onchange="updateDateFields()">
                             <option value="">Pilih Tipe</option>
-                            <option value="daily">Harian</option>
                             <option value="weekly">Mingguan</option>
                             <option value="monthly">Bulanan</option>
                             <option value="yearly">Tahunan</option>
