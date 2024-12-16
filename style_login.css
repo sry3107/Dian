@@ -1,0 +1,154 @@
+/* Style untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style untuk container */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Style untuk judul */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style untuk grup form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style untuk label */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Style untuk input teks dan password */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Menambahkan efek fokus untuk input */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #16a34a;
+    outline: none;
+    box-shadow: 0 0 5px #065f46;
+}
+
+/* Style untuk combobox (select role) */
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Menambahkan efek fokus untuk select */
+select:focus {
+    border-color: #16a34a;
+    outline: none;
+    box-shadow: 0 0 5px #065f46;
+}
+
+/* Style untuk tombol */
+button {
+    width: 30%;
+    text-align: center;
+    padding: 7px;
+    background-color: #065f46;
+    color: #fff3ee;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Efek hover untuk tombol */
+button:hover {
+    background-color: #16a34a;
+}
+
+/* Style untuk pop-up */
+.popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.popup button {
+    text-align: center;
+    background-color: #fff3ee;
+    color: #065f46;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.verification-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff !important;
+    background-color: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.verification-button:hover {
+    background-color: #388E3C;
+}
+
+.verify-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #16a34a;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.verify-button:hover {
+    background-color: #065f46;
+}
+
